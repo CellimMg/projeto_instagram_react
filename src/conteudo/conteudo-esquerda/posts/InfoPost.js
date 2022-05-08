@@ -1,6 +1,4 @@
 export default function InfoPost(props) {
-
-
     return (
         <div class="informacoes-postagem">
             <div>
