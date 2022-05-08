@@ -1,30 +1,31 @@
-
-
-
-/*tiktok*/
-
-body{
+body {
     background-color: #FAFAFA;
     font-family: 'Roboto';
     width: 100%;
     height: 100%;
 }
 
-.hover-effect{
+.teste,
+.root {
+    width: 100%;
+    height: 100%;
+}
+
+.hover-effect {
     cursor: pointer;
 }
 
-video{
+video {
     width: 100%;
     height: 612px;
 }
 
-ion-icon{
+ion-icon {
     height: 20px;
     width: 20px;
 }
 
-.menu-navegacao-bottom{
+.menu-navegacao-bottom {
     width: 100%;
     display: none;
     justify-content: space-between;
@@ -35,7 +36,7 @@ ion-icon{
     bottom: 0;
 }
 
-.menu-navegacao{
+.menu-navegacao {
     z-index: 1;
     position: fixed;
     top: 0;
@@ -46,7 +47,7 @@ ion-icon{
     border-bottom: 1px solid #DBDBDB;
 }
 
-.menu-navegacao > div{
+.menu-navegacao>div {
     height: 100%;
     width: 935px;
     display: flex;
@@ -55,12 +56,12 @@ ion-icon{
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     display: flex;
-    height: 29px;   
+    height: 29px;
 }
 
-.icon-logo{
+.icon-logo {
     height: 22px;
     width: 22px;
     margin-right: 10px;
@@ -68,17 +69,19 @@ ion-icon{
     padding-right: 10px;
 }
 
-.logo div:last-child{
+.logo div:last-child {
     height: 29px;
     width: 103px;
     background: url("assets/images/logo.png") no-repeat;
 }
 
-.logo, .icons, .search-bar{
+.logo,
+.icons,
+.search-bar {
     margin: auto 0;
 }
 
-.search-bar{
+.search-bar {
     background-color: #FAFAFA;
     color: #979797;
     font-size: 12px;
@@ -90,12 +93,12 @@ ion-icon{
     line-height: 28px;
 }
 
-.icon{
+.icon {
     margin: auto;
     margin-left: 15px;
 }
 
-.conteudo{
+.conteudo {
     position: relative;
     width: 935px;
     height: auto;
@@ -104,12 +107,12 @@ ion-icon{
     display: flex;
 }
 
-.conteudo-esquerda{
+.conteudo-esquerda {
     width: 614px;
     margin-right: 29px;
 }
 
-.stories{
+.stories {
     background-color: #FFFFFF;
     border: 1px solid #DBDBDB;
     height: 118px;
@@ -123,7 +126,7 @@ ion-icon{
     margin-bottom: 24px;
 }
 
-.story{
+.story {
     overflow: hidden;
     flex: 0 0 auto;
     width: 66px;
@@ -135,7 +138,7 @@ ion-icon{
     align-items: center;
 }
 
-.story div{
+.story div {
     position: relative;
     height: 66px;
     width: 66px;
@@ -144,7 +147,7 @@ ion-icon{
     justify-content: center;
 }
 
-.story span{
+.story span {
     text-align: center;
     margin-top: 3px;
     width: 66px;
@@ -154,7 +157,7 @@ ion-icon{
     text-overflow: ellipsis;
 }
 
-.icon-arrow{
+.icon-arrow {
     position: absolute;
     right: 0px;
     top: 2.5rem;
@@ -164,18 +167,18 @@ ion-icon{
     width: 26px;
 }
 
-.story .background{
+.story .background {
     height: 66px;
     width: 66px;
 }
 
-.story img{
+.story img {
     position: absolute;
     width: 56px;
     height: 56px;
 }
 
-.postagem{
+.postagem {
     height: 874px;
     width: 100%;
     background: #FFFFFF;
@@ -185,7 +188,7 @@ ion-icon{
     margin-bottom: 60px;
 }
 
-.comentarios{
+.comentarios {
     box-sizing: border-box;
     margin-top: 10px;
     height: 50px;
@@ -194,23 +197,23 @@ ion-icon{
     font-size: 14px;
 }
 
-.comentarios strong{
+.comentarios strong {
     font-weight: 500;
     color: #262626;
 }
 
-.comentario{
+.comentario {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.comentario ion-icon{
+.comentario ion-icon {
     height: 15px;
 }
 
-.comentar{
+.comentar {
     border-top: 1px solid #DBDBDB;
     box-sizing: border-box;
     padding: 0 17px;
@@ -221,25 +224,25 @@ ion-icon{
     height: 60px;
 }
 
-.comentar > div{
+.comentar>div {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
 
-.comentar span{
+.comentar span {
     font-size: 14px;
     color: #B2DFFC;
-}   
+}
 
-.comentar span:hover{
+.comentar span:hover {
     cursor: pointer;
-   transition: 300ms;
+    transition: 300ms;
     color: #0095F6;
 }
 
-.comentar input{
+.comentar input {
     width: 100%;
     font-size: 14px;
     font-weight: 500;
@@ -247,21 +250,21 @@ ion-icon{
     border: none;
 }
 
-.comentar input::placeholder{
+.comentar input::placeholder {
     color: #9b9494;
     font-weight: 500;
 }
 
-.comentar input:focus{
+.comentar input:focus {
     outline: none;
 }
 
-.postagem > img{
+.postagem>img {
     width: 100%;
     height: 612px;
 }
 
-.cabecalho-postagem{
+.cabecalho-postagem {
     border-bottom: 1px solid #DBDBDB;
     padding-right: 15px;
     padding-left: 15px;
@@ -273,47 +276,47 @@ ion-icon{
     box-sizing: border-box;
 }
 
-.cabecalho-postagem div{
+.cabecalho-postagem div {
     display: flex;
     align-items: center;
 }
 
-.cabecalho-postagem span{
-    margin-left:  15px;
+.cabecalho-postagem span {
+    margin-left: 15px;
     font-weight: 500;
     font-size: 14px;
 }
 
-.informacoes-postagem{
+.informacoes-postagem {
     height: 76px;
     padding: 0 17px;
 }
 
-.cabecalho-postagem img{
+.cabecalho-postagem img {
     border-radius: 30px;
     height: 32px;
     width: 32px;
 }
 
-.informacoes-postagem div{
+.informacoes-postagem div {
     display: flex;
     justify-content: space-between;
 }
 
-.informacoes-postagem div:last-child{
+.informacoes-postagem div:last-child {
     justify-content: start;
 }
 
-.informacoes-postagem div ion-icon{
+.informacoes-postagem div ion-icon {
     margin-top: 10px;
     margin-bottom: 12px;
 }
 
-.informacoes-postagem div div ion-icon{
+.informacoes-postagem div div ion-icon {
     margin-right: 15px;
 }
 
-.informacoes-postagem img{
+.informacoes-postagem img {
     height: 20px;
     width: 20px;
 }
@@ -325,11 +328,11 @@ ion-icon{
     font-size: 14px;
 }
 
-.informacoes-postagem p span{
+.informacoes-postagem p span {
     font-weight: 500;
 }
 
-.conteudo-direita{
+.conteudo-direita {
     width: 292px;
     height: auto;
     margin-top: 23px;
@@ -338,13 +341,13 @@ ion-icon{
     left: calc(50% + 180px);
 }
 
-.conteudo-direita .perfil img{
+.conteudo-direita .perfil img {
     height: 56px;
     width: 56px;
     margin-right: 17px;
 }
 
-.conteudo-direita div:last-child > p{
+.conteudo-direita div:last-child>p {
     color: #C7C7C7;
     font-size: 11px;
     font-weight: 400;
@@ -352,74 +355,74 @@ ion-icon{
 }
 
 
-.conteudo-direita div:last-child > p:first-child{
+.conteudo-direita div:last-child>p:first-child {
     margin-top: 33px;
 }
 
-.perfil{
+.perfil {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
 }
 
-.perfil div span{
+.perfil div span {
     display: block;
     font-size: 14px;
     line-height: 16px;
 }
 
-.perfil span:first-child{
+.perfil span:first-child {
     font-size: 14;
     font-weight: 500;
 }
 
-.perfil span:last-child{
+.perfil span:last-child {
     font-weight: 300;
     color: #8E8E8E;
 }
 
-.sugestoes div{
+.sugestoes div {
     display: flex;
     justify-content: space-between;
 }
 
-.sugestoes div:first-child{
+.sugestoes div:first-child {
     font-size: 12px;
     font-weight: 500;
     color: #8E8E8E;
     margin-bottom: 17px;
 }
 
-.sugestoes div:first-child span{
+.sugestoes div:first-child span {
     color: #262626;
 }
 
-.sugestoes img{
+.sugestoes img {
     height: 32px;
     width: 32px;
     margin-right: 11px;
 }
 
-.sugestao > div > div{
+.sugestao>div>div {
     height: 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.sugestao > div > div span:first-child{
+.sugestao>div>div span:first-child {
     font-size: 14px;
     font-weight: 500;
     color: #262626;
 }
 
-.sugestao > div > div span:last-child{
+.sugestao>div>div span:last-child {
     font-size: 12px;
     font-weight: 400;
     color: #8E8E8E;
 }
 
-.sugestao > span{
+.sugestao>span {
     line-height: 32px;
     text-align: center;
     font-weight: 500;
@@ -427,80 +430,39 @@ ion-icon{
     color: #139EF2;
 }
 
-.sugestao{
+.sugestao {
     height: 32px;
     margin-bottom: 16px;
 }
 
 
-
-.menu-navegacao{
-}
-
-.logo{
-}
-
-
-.icons{
-        
-}
-
-.search-bar{
-   
-}
-
-.stories{
-    
-}
-
-.story{
-   
-}
-
-.postagem{
-}
-
-.perfil{
-    
-}
-
-.sugestoes{
-    
-}
-
-.conteudo-direita div:last-child{
-    
-}
-
-
-
 /*Desktop sem side*/
-@media (min-width: 615px) and (max-width: 935px){
-    .conteudo-direita{
+@media (min-width: 615px) and (max-width: 935px) {
+    .conteudo-direita {
         display: none;
     }
 
 
-    .conteudo{
+    .conteudo {
         width: 100%;
     }
 
-    .menu-navegacao{
+    .menu-navegacao {
         width: 100%;
     }
 
-    .menu-navegacao > div{
+    .menu-navegacao>div {
         width: 100%;
         padding: 0 20px 0 20px;
         box-sizing: border-box;
     }
 
-    .conteudo-esquerda{
+    .conteudo-esquerda {
         margin: 0 auto;
         width: 614px;
     }
 
-    .menu-navegacao > div{
+    .menu-navegacao>div {
         height: 100%;
         width: 100%;
         display: flex;
@@ -510,74 +472,80 @@ ion-icon{
 }
 
 
+.liked {
+    color: red;
+}
+
 /*Mobile*/
 @media (max-width: 614px) {
-    .menu-navegacao{
+    .menu-navegacao {
         width: 100%;
         padding: 0 20px 0 20px;
         box-sizing: border-box;
     }
 
-    .menu-navegacao > div{
-        width: 100%;
-    }
-    
-    .conteudo-esquerda{
+    .menu-navegacao>div {
         width: 100%;
     }
 
-    .conteudo{
+    .conteudo-esquerda {
+        width: 100%;
+    }
+
+    .conteudo {
         top: 54px;
     }
 
-    .icon-logo{
+    .icon-logo {
         border: none;
     }
 
-    .story img{
+    .story img {
         border-radius: 30px;
     }
 
-    .icon-arrow{
+    .icon-arrow {
         display: none;
     }
 
-    .story{
+    .story {
         background-color: #FAFAFA;
     }
 
-    .stories{
+    .stories {
         border: none;
         background-color: #FAFAFA;
         margin: 0;
         width: 100%;
     }
 
-    .conteudo{
+    .conteudo {
         width: 100%;
     }
 
-    .search-bar{
+    .search-bar {
         display: none;
     }
 
-    .conteudo-direita{
+    .conteudo-direita {
         display: none;
     }
 
-    .logo{
+    .logo {
         width: 100%;
     }
 
-    .logo div:last-child{
+    .logo div:last-child {
         margin: 0 auto;
     }
-    
-    .icons .icon:nth-child(2), .icons .icon:nth-child(3), .icons .icon:nth-child(4){
+
+    .icons .icon:nth-child(2),
+    .icons .icon:nth-child(3),
+    .icons .icon:nth-child(4) {
         display: none;
     }
 
-    .menu-navegacao-bottom{
+    .menu-navegacao-bottom {
         box-sizing: border-box;
         height: 54px;
         background-color: #FFFFFF;
@@ -585,7 +553,5 @@ ion-icon{
         width: 100%;
         justify-content: space-between;
     }
-
-    
 
 }
